@@ -1,0 +1,17 @@
+{
+  "name": "menino-vs-menina-royale",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Jogo de batalha Menino vs Menina com eventos simulados e WebSocket",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "demo": "node server.js --demo"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
